@@ -4,7 +4,11 @@ module.exports = {
 	theme: {
 		extend: {
 			backgroundImage: {
-				'hero-pattern': "url('../public/hero-pattern.jpg')",
+				'hero-pattern': "url('../public/pink-clouds.jpg')",
+				'sa-logo': 'url(../public/sa-logo-transparent.png)',
+			},
+			backgroundSize: {
+				'here-pattern-size': 'contain',
 			},
 		},
 	},
